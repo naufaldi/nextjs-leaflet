@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next';
 import Layout from '@/lib/components/layout';
 import { fontSans } from '@/lib/styles/fonts';
 import { cn } from '@/lib/styles/utils';
-
+import 'leaflet/dist/leaflet.css';
 import '@/lib/styles/globals.css';
 
 const APP_NAME = 'nextarter-tailwind';
@@ -54,9 +54,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
           fontSans.variable
         )}
       >
-        <Layout>
-          <div className="flex-1">{children}</div>
-        </Layout>
+        <Layout>{children}</Layout>
       </body>
     </html>
   );
