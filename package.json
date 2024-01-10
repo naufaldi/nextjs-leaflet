@@ -42,6 +42,7 @@
     "@commitlint/config-conventional": "^18.1.0",
     "@commitlint/cz-commitlint": "^18.2.0",
     "@tailwindcss/typography": "^0.5.10",
+    "@types/geojson": "^7946.0.13",
     "@types/leaflet": "^1.9.8",
     "@types/react": "18.2.37",
     "autoprefixer": "^10.4.16",
