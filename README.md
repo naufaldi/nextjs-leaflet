@@ -1,64 +1,32 @@
-<img src="https://og.sznm.dev/api/generate?heading=nextarter-tailwind&text=Next.js+(App+Router)+template+with+TailwindCSS+and+TypeScript+setup.&template=color&center=true&height=320" />
+# NextJS Leaflet Project
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-tailwind) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-tailwind)
+## Introduction
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sozonome/nextarter-tailwind)
+This project demonstrates integrating Leaflet with NextJS for creating interactive maps. It serves as a practical example for the tutorial series on [blog.cerita-faldi.xyz](https://blog.cerita-faldi.xyz).
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), added with [**TailwindCSS**](https://tailwindcss.com) and [**TypeScript**](https://www.typescriptlang.org) setup.
-Start developing right away!
+## Technologies Used
 
-## 🔋⚡ Super Battery Packed template
+- **NextJS**: A React framework for server-side rendering and static web applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Leaflet**: An open-source JavaScript library for interactive maps.
+- **GeoJSON**: A format for encoding various geographic data structures.
+- **Geoman**: Tools for creating and editing geometry layers in Leaflet.
 
-- 🚀 **Next.js 13 (App Router)** - **React 18**
-- ⛓️ **TypeScript**
-- **TailwindCSS** v3 - with base shadcn/ui setup
-  - recommended to extend with one of these:
-    - [shadcn/ui](https://ui.shadcn.com/)
-    - [tremor](https://www.tremor.so/)
-    - [flowbite-react](https://www.flowbite-react.com/)
-    - [daisyUI](https://daisyui.com/)
-    - [Headless UI](https://headlessui.com/)
-    - [NextUI v2](https://github.com/nextui-org/nextui/discussions/1035)
-- ✔️ **toolings** for linting, formatting, and conventions configured
-  - `eslint`, `prettier`, `husky`, `lint-staged`, `commitlint`, `commitizen`, and `standard-version`
-  - `pre-commit`, `pre-push`, `commit-msg`, `prepare-commit-msg` hook configured
-- 📱 **PWA-ready** - `next-pwa` configured, enabled by default, just disable it through `next.config.js`
-- 🔎 SEO optimization configured - with `next-seo` and `next-sitemap`.
-  - you'll need to reconfigure or tinker with it to get it right according to your needs, but it's there if you need it.
-- 🎨 basic responsive layout configured - don't need it? just remove it 😃
-- 🤖 **Automatic Dependency Update** with [Renovate](https://renovatebot.com/)
-- 🏎️ **Turbo** setup
+## Features
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=alert_status)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=bugs)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=code_smells)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind)
+- **Interactive Maps**: Dynamic map interaction within a NextJS application.
+- **GeoJSON Integration**: Handling geographical data using GeoJSON.
+- **Customizable Map Markers**: Adding and customizing map markers.
+- **Geoman Tools**: Advanced map editing and geometry layer manipulation.
+- **Responsive Design**: Tailwind CSS ensures a responsive and modern UI.
 
-## Getting Started
+## Usage
 
-You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
+1. **Map Navigation**: Interact with the map to explore locations.
+2. **Markers**: Click on the map to add markers and view coordinates.
+3. **Editing Layers**: Utilize Geoman tools for map editing.
+4. **GeoJSON Data**: Visualize geographical data with GeoJSON.
 
-```bash
-npx degit sozonome/nextarter-tailwind <APP_NAME>
-```
+## License
 
-Install packages:
-
-```bash
-pnpm i
-```
-
-Then, run the development server:
-
-```bash
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `src/pages/index.tsx`. The page auto-updates as you edit the file.
-
-## References
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [TailwindCSS](https://tailwindcss.com)
-- [headless UI](https://headlessui.dev/)
-- [TypeScript](https://www.typescriptlang.org)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
