@@ -4,6 +4,8 @@ import Layout from '@/lib/components/layout';
 import { fontSans } from '@/lib/styles/fonts';
 import { cn } from '@/lib/styles/utils';
 import 'leaflet/dist/leaflet.css';
+
+import '@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css';
 import '@/lib/styles/globals.css';
 
 const APP_NAME = 'nextarter-tailwind';

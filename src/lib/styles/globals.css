@@ -25,7 +25,7 @@
 
   .wrapper {
     @apply mx-auto w-full p-6 sm:p-8;
-    max-width: 48rem;
+    max-width: 60rem;
   }
 }
 
